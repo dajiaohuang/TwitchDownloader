@@ -277,7 +277,7 @@ namespace TwitchDownloaderCore
                 }
 
                 var stvDir = new DirectoryInfo(Path.Combine(cacheFolder, "stv"));
-                await RefreshOrLoadProviderMetadata(emoteResponse.FFZ, stvDir, "7TV", streamerId, offline, logger, cancellationToken);
+                await RefreshOrLoadProviderMetadata(emoteResponse.STV, stvDir, "7TV", streamerId, offline, logger, cancellationToken);
             }
 
             return emoteResponse;
